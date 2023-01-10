@@ -1,0 +1,42 @@
+.total{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 270px;
+  height: 110px;
+  padding: 20px;
+  background: white;
+  border-radius: 3px;
+  min-width: 350px;
+}
+
+.total > h2{
+  font-size: 32px;
+  font-weight: 450;
+  padding-bottom: 14px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.total_p{
+  font-size: 20px;
+  font-weight: 450;
+  color: black
+}
+
+.total > button:active{
+  background-color: unset;
+  border: 1px solid #FFD814;
+}
+
+@media(max-width:800px){
+  .total{
+    width: unset;
+    text-align: center;
+  }
+}
+
+@media(max-width:900px){
+  .total{
+    min-width: unset;
+  }
+}
